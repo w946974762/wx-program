@@ -1,0 +1,29 @@
+{
+    "pages": [
+        "pages/page/page",
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2b4b6b",
+        "navigationBarTitleText": "学苑",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#808080"
+    },
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/page/page",
+            "text": "a"
+        },{
+            "pagePath": "pages/index/index",
+            "text": "b"
+        },{
+            "pagePath": "pages/logs/logs",
+            "text": "c"
+        }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

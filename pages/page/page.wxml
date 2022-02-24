@@ -1,0 +1,11 @@
+<swiper class="container1" indicator-dots autoplay interval="3000" circular>
+<swiper-item wx:for="{{swiperlist}}" wx:key="id">
+  <image src="{{item.image}}" ></image>
+</swiper-item>
+</swiper>
+<view class="container2">
+<view class="container3" wx:for="{{grid}}" wx:key="id">
+<image src="{{item.icon}}"></image>
+<text>{{item.name}}</text>
+</view>
+</view>
